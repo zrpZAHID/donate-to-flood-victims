@@ -1,0 +1,142 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+}
+
+.background {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 0%;
+
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+}
+
+.text-position {
+    text-align: center;
+    padding: 200px;
+}
+
+.position {
+    text-align: center;
+
+}
+
+p {
+    color: white;
+    font-size: 15px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.font1 {
+    color: black;
+}
+
+.font2 {
+    color: gray;
+}
+
+.flexible {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.width-area {
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.border {
+    border: 3px solid #FF5959;
+    border-radius: 5px;
+    background-color: #FFEEEE;
+}
+
+.input-border {
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.alignment {
+    text-align: left;
+}
+
+.area {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.text1 {
+    padding: 5%;
+}
+
+.border1 {
+    border: none;
+    border-radius: 3px;
+    background-color: #a4d6dbc2;
+}
+
+.border2 {
+    border: none;
+    border-radius: 3px;
+    background-color: #e9cbcb;
+}
+
+.border3 {
+    border: none;
+    border-radius: 3px;
+    background-color: #FFF4D6;
+}
+
+.border4 {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #FFF4D6;
+    padding: 50px 30px;
+    justify-content: center;
+}
+
+.border-email {
+    text-align: center;
+    border: none;
+    background-color: gainsboro;
+    height: 30px;
+}
+
+button {
+    border-width: 0;
+    background-color: rgb(214, 22, 18);
+}
+
+.background2 {
+    margin-top: 10%;
+    background-color: rgb(1, 1, 43);
+    height: 200px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 40px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+}
