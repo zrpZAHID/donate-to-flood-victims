@@ -21,6 +21,10 @@ h1 {
     padding: 200px;
 }
 
+.text1 {
+    margin-bottom: 5%;
+}
+
 .position {
     text-align: center;
 
@@ -51,18 +55,31 @@ p {
 .flexible {
     display: flex;
     margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .width-area {
     width: 30%;
     margin-left: 5%;
     margin-right: 5%;
+    padding: 2%;
 }
 
-.border {
+.border200 {
     border: 3px solid #FF5959;
     border-radius: 5px;
     background-color: #FFEEEE;
+}
+
+.border-all {
+    border: 3px solid #FAFAFA;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+}
+
+.input-margin {
+    margin-top: 4%;
 }
 
 .input-border {
@@ -83,26 +100,25 @@ p {
     margin-right: 5%;
 }
 
-.text1 {
-    padding: 5%;
-}
-
 .border1 {
     border: none;
     border-radius: 3px;
     background-color: #a4d6dbc2;
+    padding: 2%;
 }
 
 .border2 {
     border: none;
     border-radius: 3px;
     background-color: #e9cbcb;
+    padding: 2%;
 }
 
 .border3 {
     border: none;
     border-radius: 3px;
     background-color: #FFF4D6;
+    padding: 2%;
 }
 
 .border4 {
@@ -118,25 +134,30 @@ p {
     border: none;
     background-color: gainsboro;
     height: 30px;
+    padding: 5px;
 }
 
 button {
     border-width: 0;
     background-color: rgb(214, 22, 18);
+    padding: 5px;
 }
 
-.background2 {
-    margin-top: 10%;
+.footer-design {
+    text-align: center;
+    margin-top: 5%;
+    padding: 3%;
     background-color: rgb(1, 1, 43);
-    height: 200px;
-    width: 100%;
+
 }
 
-h2 {
+h3 {
     font-size: 40px;
     color: white;
+    font-family: cursive;
 }
 
 footer {
     text-align: center;
+
 }
