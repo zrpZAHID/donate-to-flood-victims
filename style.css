@@ -7,8 +7,6 @@ body {
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-top: 0%;
-
 }
 
 h1 {
@@ -27,6 +25,7 @@ h1 {
 
 .position {
     text-align: center;
+    margin-bottom: 10px;
 
 }
 
@@ -55,15 +54,36 @@ p {
 .flexible {
     display: flex;
     margin-bottom: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 25px;
 }
 
 .width-area {
-    width: 30%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 2%;
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 10px;
+}
+
+.flexible-1 {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+#food {
+    background-color: aquamarine;
+}
+
+#shelter {
+    background-color: rgb(237, 164, 164);
+}
+
+#education {
+    background-color: rgb(231, 203, 132);
 }
 
 .border200 {
@@ -94,38 +114,19 @@ p {
     text-align: left;
 }
 
-.area {
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.border1 {
-    border: none;
-    border-radius: 3px;
-    background-color: #a4d6dbc2;
-    padding: 2%;
-}
-
-.border2 {
-    border: none;
-    border-radius: 3px;
-    background-color: #e9cbcb;
-    padding: 2%;
-}
-
-.border3 {
-    border: none;
-    border-radius: 3px;
-    background-color: #FFF4D6;
-    padding: 2%;
+.border {
+    width: 90%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 3%;
+    border-radius: 5px;
 }
 
 .border4 {
     margin-left: 25%;
     margin-right: 25%;
     background-color: #FFF4D6;
-    padding: 50px 30px;
+    padding: 60px 30px;
     justify-content: center;
 }
 
@@ -134,13 +135,13 @@ p {
     border: none;
     background-color: gainsboro;
     height: 30px;
-    padding: 5px;
+    padding: 2% 10%;
 }
 
 button {
     border-width: 0;
-    background-color: rgb(214, 22, 18);
-    padding: 5px;
+    background-color: rgb(216, 74, 71);
+    padding: 2%;
 }
 
 .footer-design {
@@ -153,7 +154,7 @@ button {
 
 h3 {
     font-size: 40px;
-    color: white;
+    color: rgb(160, 31, 31);
     font-family: cursive;
 }
 
